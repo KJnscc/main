@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in page</title>
+
+<link rel="stylesheet" href="Day10-CSS.css">
+</head>
+
+<body>
+<h1>Sign in</h1>
+
+<form action="mailto:W0468739@pampus.nscc.ca"
+method="post" enctype="text/plain">
+
+<br>  
+
+Your first and Last Name:<br>
+<input type="text" name="YourName" minlength="5" required="required" size="30"><br><br>
+
+Your age:<br>
+<input type="number" name="Yourage" min="16" max="100" required="required" size="50"><br><br>
+
+Selct your provunce:
+<select id="Province">
+    <option value="Alberta">Alberta</option>
+    <option value="British Columbia">British Columbia</option>
+    <option value="Manitoba">Manitoba</option>
+    <option value="New Brunswick">New Brunswick</option>
+    <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+    <option value="Northwest Territories">Northwest Territories</option>
+    <option value="Nova Scotia">Nova Scotia</option>
+    <option value="Nunavut">Nunavut</option>
+    <option value="Ontario">Ontario</option>
+    <option value="Prince Edward Island">Prince Edward Island</option>
+    <option value="Quebec">Quebec</option>
+    <option value="Saskatchewan">Saskatchewan</option>
+    <option value="Yukon">Yukon</option>
+</select><br><br>
+
+The city that you live in:<br>
+<input type="text" name="City" minlength="5" required="required" size="50"><br><br>
+
+E-mail:<br>
+<input type="email" name="mail" required="required"><br><br>
+
+Your phone number:
+<input type="tel" id="phone" name="phone" 
+placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+<label for="TDate">Your birth Date:</label><br>
+<input type="date" id="TDate" name="TDate" required="required">
+<br><br>
+
+<input type="submit" value="Sign in">
+<input type="reset" value="Reset">
+
+</form>
+
+</head>
+<body>
+<br>
+<br>
+<table>
+    <tr>
+        <th id="TH4"><img src="LOGO.png" alt="Logo" width="100px"></th>
+    </tr>
+</table>
+
+</body>
+</html>
